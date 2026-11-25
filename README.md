@@ -41,7 +41,7 @@ Portofolio lengkap ada di [raden-diazka.github.io](https://raden-diazka.github.i
 ## Aktivitas di GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=raden-diazka&show_icons=true&include_all_commits=true&hide_border=true&bg_color=E9EEF3&title_color=12232F&icon_color=C6361F&text_color=55697A" alt="Statistik GitHub Raden Diazka" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=raden-diazka&show_icons=true&hide_border=true&bg_color=E9EEF3&title_color=12232F&icon_color=C6361F&text_color=55697A" alt="Statistik GitHub Raden Diazka" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raden-diazka&layout=compact&langs_count=6&hide_border=true&bg_color=E9EEF3&title_color=12232F&text_color=55697A" alt="Bahasa pemrograman yang paling sering dipakai" />
 </p>
 
