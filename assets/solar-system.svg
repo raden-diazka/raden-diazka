@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460" role="img" aria-label="Solar System — Raden Diazka Adhitya Budiman">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="46%" r="78%">
+      <stop offset="0%" stop-color="#0b1226"/>
+      <stop offset="55%" stop-color="#060a16"/>
+      <stop offset="100%" stop-color="#03050c"/>
+    </radialGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#fff8dc"/>
+      <stop offset="45%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.42"/>
+      <stop offset="45%" stop-color="#f97316" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planetGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="880" height="460" fill="url(#space)"/>
+
+  <!-- star field -->
+  <g fill="#dbe6ff">
+    <circle cx="60" cy="120" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.5;0.12;0.5" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="130" cy="200" r="0.9" opacity="0.35"/>
+    <circle cx="90" cy="300" r="1.4" opacity="0.55"><animate attributeName="opacity" values="0.55;0.15;0.55" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="90" r="0.9" opacity="0.3"/>
+    <circle cx="210" cy="340" r="1.1" opacity="0.4"/>
+    <circle cx="250" cy="150" r="0.8" opacity="0.3"/>
+    <circle cx="300" cy="60" r="1.2" opacity="0.45"/>
+    <circle cx="330" cy="300" r="0.9" opacity="0.3"/>
+    <circle cx="370" cy="120" r="0.8" opacity="0.25"/>
+    <circle cx="520" cy="90" r="1.1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="130" r="0.9" opacity="0.3"/>
+    <circle cx="660" cy="70" r="1.3" opacity="0.5"/>
+    <circle cx="720" cy="180" r="0.8" opacity="0.3"/>
+    <circle cx="800" cy="110" r="1.2" opacity="0.45"/>
+    <circle cx="840" cy="220" r="0.9" opacity="0.35"/>
+    <circle cx="780" cy="300" r="1.1" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="350" r="0.9" opacity="0.3"/>
+    <circle cx="620" cy="300" r="0.8" opacity="0.25"/>
+    <circle cx="560" cy="340" r="1.2" opacity="0.4"/>
+    <circle cx="500" cy="390" r="0.9" opacity="0.3"/>
+    <circle cx="400" cy="410" r="1.1" opacity="0.35"/>
+    <circle cx="300" cy="390" r="0.8" opacity="0.25"/>
+    <circle cx="200" cy="410" r="1.2" opacity="0.4"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="110" cy="380" r="0.9" opacity="0.3"/>
+    <circle cx="60" cy="240" r="0.8" opacity="0.25"/>
+    <circle cx="150" cy="250" r="0.7" opacity="0.2"/>
+    <circle cx="420" cy="50" r="1" opacity="0.35"/>
+    <circle cx="480" cy="150" r="0.7" opacity="0.2"/>
+    <circle cx="350" cy="220" r="0.7" opacity="0.2"/>
+    <circle cx="540" cy="200" r="0.7" opacity="0.2"/>
+    <circle cx="260" cy="240" r="0.6" opacity="0.2"/>
+    <circle cx="640" cy="240" r="0.6" opacity="0.2"/>
+    <circle cx="740" cy="120" r="0.7" opacity="0.25"/>
+    <circle cx="820" cy="340" r="0.8" opacity="0.3"/>
+    <circle cx="860" cy="60" r="0.9" opacity="0.3"/>
+    <circle cx="30" cy="60" r="1" opacity="0.35"/>
+    <circle cx="360" cy="360" r="0.7" opacity="0.2"/>
+    <circle cx="230" cy="70" r="0.8" opacity="0.25"/>
+    <circle cx="530" cy="260" r="0.6" opacity="0.18"/>
+    <circle cx="680" cy="250" r="0.6" opacity="0.18"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#1c2a4a" stroke-width="1">
+    <path d="M22 96 V22 H96"/>
+    <path d="M784 22 H858 V96"/>
+    <path d="M22 364 V438 H96"/>
+    <path d="M858 364 V438 H784"/>
+  </g>
+
+  <!-- header -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+    <text x="34" y="46" font-size="15" font-weight="700" letter-spacing="7" fill="#e8eefc">SOLAR SYSTEM</text>
+    <text x="34" y="66" font-size="10" letter-spacing="2.4" fill="#6f7f9e">@RADEN-DIAZKA · PROFILE README</text>
+    <text x="846" y="46" text-anchor="end" font-size="10" letter-spacing="1.8" fill="#6f7f9e">LEARNING IN PUBLIC</text>
+    <text x="846" y="66" text-anchor="end" font-size="10" letter-spacing="1.8" fill="#455270">NET · SEC · AI</text>
+  </g>
+
+  <!-- orbits -->
+  <g fill="none" stroke="#27375c" stroke-width="1">
+    <circle cx="440" cy="236" r="64" stroke-dasharray="1 7" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="440" cy="236" r="100" stroke-dasharray="1 8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="440" cy="236" r="136" stroke-dasharray="1 9" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="440" cy="236" r="172" stroke-dasharray="1 10" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- sun -->
+  <circle cx="440" cy="236" r="88" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.6;0.95;0.6" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="440" cy="236" r="46" fill="none" stroke="#fbbf24" stroke-opacity="0.3" stroke-dasharray="3 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 440 236" to="360 440 236" dur="34s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="440" cy="236" r="38" fill="url(#sunGrad)"/>
+  <circle cx="440" cy="236" r="38" fill="none" stroke="#fde68a" stroke-opacity="0.45"/>
+  <text x="440" y="242" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="2" fill="#2a1a05">RD</text>
+
+  <!-- planet 1 · cybersec -->
+  <g transform="rotate(0 440 236)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 440 236" to="360 440 236" dur="16s" repeatCount="indefinite"/>
+      <g transform="translate(440 172)">
+        <circle r="13" fill="#22d3ee" opacity="0.12"/>
+        <circle r="5.5" fill="#22d3ee"/>
+        <circle r="5.5" fill="url(#planetGlow)"/>
+        <g transform="rotate(0 0 0)">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="16s" repeatCount="indefinite"/>
+          <g transform="translate(24 0)">
+            <text y="4" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.4" fill="#7fd8ea">CYBERSEC</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- planet 2 · networking -->
+  <g transform="rotate(100 440 236)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 440 236" to="360 440 236" dur="26s" repeatCount="indefinite"/>
+      <g transform="translate(440 136)">
+        <circle r="14" fill="#34d399" opacity="0.12"/>
+        <circle r="6.5" fill="#34d399"/>
+        <circle r="6.5" fill="url(#planetGlow)"/>
+        <g transform="rotate(-100 0 0)">
+          <animateTransform attributeName="transform" type="rotate" from="-100 0 0" to="-460 0 0" dur="26s" repeatCount="indefinite"/>
+          <g transform="translate(26 0)">
+            <text y="4" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.4" fill="#7fe3b8">NETWORKING</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- planet 3 · ai -->
+  <g transform="rotate(205 440 236)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 440 236" to="360 440 236" dur="36s" repeatCount="indefinite"/>
+      <g transform="translate(440 100)">
+        <circle r="15" fill="#a78bfa" opacity="0.12"/>
+        <circle r="7.5" fill="#a78bfa"/>
+        <circle r="7.5" fill="url(#planetGlow)"/>
+        <g transform="rotate(-205 0 0)">
+          <animateTransform attributeName="transform" type="rotate" from="-205 0 0" to="-565 0 0" dur="36s" repeatCount="indefinite"/>
+          <g transform="translate(28 0)">
+            <text y="4" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.4" fill="#c4b1fb">AI / ML</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- planet 4 · web -->
+  <g transform="rotate(300 440 236)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 440 236" to="360 440 236" dur="50s" repeatCount="indefinite"/>
+      <g transform="translate(440 64)">
+        <circle r="16" fill="#fbbf24" opacity="0.12"/>
+        <circle r="8.5" fill="#fbbf24"/>
+        <circle r="8.5" fill="url(#planetGlow)"/>
+        <g transform="rotate(-300 0 0)">
+          <animateTransform attributeName="transform" type="rotate" from="-300 0 0" to="-660 0 0" dur="50s" repeatCount="indefinite"/>
+          <g transform="translate(29 0)">
+            <text y="4" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="1.4" fill="#f6cf7a">WEB DEV</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <text x="440" y="430" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" letter-spacing="2" fill="#5b6a8a">PLANETS = FOCUS AREAS · ORBITS = CURIOSITY · SUN = ME</text>
+</svg>
