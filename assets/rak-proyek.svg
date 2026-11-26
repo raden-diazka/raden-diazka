@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" role="img" aria-label="Lembar 03: rak proyek dengan tiga unit proyek terpasang, satu unit latihan, dan satu unit kosong">
+  <rect width="1000" height="470" fill="#e9eef3"/>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="48" y="54" font-size="24" font-weight="600" fill="#12232f">Rak proyek</text>
+    <text x="48" y="82" font-size="14" fill="#55697a">Tiga proyek terpasang, satu unit latihan, satu kosong.</text>
+    <text x="952" y="54" text-anchor="end" font-size="10.5" letter-spacing="1.6" fill="#55697a">LEMBAR 03 DARI 03</text>
+  </g>
+
+  <!-- rack frame -->
+  <g>
+      <path d="M640 148 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 158 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 168 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 198 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 208 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 218 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 252 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 262 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 272 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 306 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 316 h56" stroke="#26333e" stroke-width="2"/>
+      <path d="M640 326 h56" stroke="#26333e" stroke-width="2"/>
+      </g>
+  <rect x="120" y="116" width="760" height="288" fill="#22303b" stroke="#12232f" stroke-width="1.6"/>
+  <rect x="120" y="116" width="24" height="288" fill="#2b3a46"/>
+  <rect x="856" y="116" width="24" height="288" fill="#2b3a46"/>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+
+    <!-- 5U: situs portofolio -->
+    <g>
+      <text x="132" y="160" text-anchor="middle" font-size="10.5" fill="#93a6b8">5U</text>
+      <circle cx="132" cy="136" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="136" r="1.8" fill="#46596a"/>
+      <circle cx="132" cy="182" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="182" r="1.8" fill="#46596a"/>
+      <rect x="148" y="130" width="704" height="48" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M148 131h704" stroke="#3a4a57" stroke-width="1" opacity="0.6"/>
+      <circle cx="170" cy="154" r="3.5" fill="#c6361f"/>
+      <text x="192" y="160" font-size="16" letter-spacing="0.8" fill="#d5e0ea">WEB-01</text>
+      <text x="828" y="160" text-anchor="end" font-size="13" fill="#93a6b8">situs</text>
+    </g>
+
+    <!-- 4U: dashboard pkl -->
+    <g>
+      <text x="132" y="214" text-anchor="middle" font-size="10.5" fill="#93a6b8">4U</text>
+      <circle cx="132" cy="190" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="190" r="1.8" fill="#46596a"/>
+      <circle cx="132" cy="236" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="236" r="1.8" fill="#46596a"/>
+      <rect x="148" y="184" width="704" height="48" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M148 185h704" stroke="#3a4a57" stroke-width="1" opacity="0.6"/>
+      <circle cx="170" cy="208" r="3.5" fill="#c6361f">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="192" y="214" font-size="16" letter-spacing="0.8" fill="#d5e0ea">PKL-01</text>
+      <text x="828" y="214" text-anchor="end" font-size="13" fill="#93a6b8">dashboard</text>
+    </g>
+
+    <!-- 3U: halaman perkenalan -->
+    <g>
+      <text x="132" y="268" text-anchor="middle" font-size="10.5" fill="#93a6b8">3U</text>
+      <circle cx="132" cy="244" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="244" r="1.8" fill="#46596a"/>
+      <circle cx="132" cy="290" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="290" r="1.8" fill="#46596a"/>
+      <rect x="148" y="238" width="704" height="48" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M148 239h704" stroke="#3a4a57" stroke-width="1" opacity="0.6"/>
+      <circle cx="170" cy="262" r="3.5" fill="#c6361f"/>
+      <text x="192" y="268" font-size="16" letter-spacing="0.8" fill="#d5e0ea">WEB-02</text>
+      <text x="828" y="268" text-anchor="end" font-size="13" fill="#93a6b8">halaman</text>
+    </g>
+
+    <!-- 2U: lab latihan -->
+    <g>
+      <text x="132" y="322" text-anchor="middle" font-size="10.5" fill="#93a6b8">2U</text>
+      <circle cx="132" cy="298" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="298" r="1.8" fill="#46596a"/>
+      <circle cx="132" cy="344" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="344" r="1.8" fill="#46596a"/>
+      <rect x="148" y="292" width="704" height="48" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M148 293h704" stroke="#3a4a57" stroke-width="1" opacity="0.6"/>
+      <circle cx="170" cy="316" r="3.5" fill="#8a5d4e"/>
+      <text x="192" y="322" font-size="16" letter-spacing="0.8" fill="#d5e0ea">LAB-01</text>
+      <text x="828" y="322" text-anchor="end" font-size="13" fill="#93a6b8">latihan</text>
+    </g>
+
+    <!-- 1U: kosong -->
+    <g>
+      <text x="132" y="376" text-anchor="middle" font-size="10.5" fill="#93a6b8">1U</text>
+      <circle cx="132" cy="352" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="352" r="1.8" fill="#46596a"/>
+      <circle cx="132" cy="398" r="1.8" fill="#46596a"/>
+      <circle cx="868" cy="398" r="1.8" fill="#46596a"/>
+      <rect x="148" y="346" width="704" height="48" rx="2" fill="#17222c" stroke="#46596a" stroke-dasharray="6 4"/>
+      <circle cx="170" cy="370" r="3.5" fill="#2f3f4b"/>
+      <text x="192" y="376" font-size="16" letter-spacing="0.8" fill="#7f93a2">KOSONG</text>
+      <text x="828" y="376" text-anchor="end" font-size="13" fill="#7f93a2">menunggu</text>
+    </g>
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="120" y="430" font-size="10.5" letter-spacing="1.6" fill="#55697a">RAK 19 INCI, 5U</text>
+    <circle cx="124" cy="456" r="4" fill="#c6361f"/>
+    <text x="140" y="461" font-size="13" fill="#55697a">LED berkedip menandai proyek dengan demo yang bisa dibuka</text>
+  </g>
+</svg>

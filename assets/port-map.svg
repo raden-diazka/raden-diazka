@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Patch panel 12 port berisi peralatan jaringan, keamanan, AI, dan web">
   <rect width="1000" height="280" fill="#e9eef3"/>
 
-  <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif">
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
     <text x="48" y="58" font-size="22" font-weight="600" fill="#12232f">Port map</text>
-    <text x="48" y="82" font-size="13" fill="#55697a">Peralatan yang paling sering saya pakai.</text>
-    <text x="952" y="58" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#55697a">12 PORT</text>
+    <text x="48" y="82" font-size="14" fill="#55697a">Peralatan yang paling sering saya pakai.</text>
+    <text x="952" y="34" text-anchor="end" font-size="10.5" letter-spacing="1.4" fill="#55697a">LEMBAR 02 DARI 03</text>
+    <text x="952" y="58" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" fill="#55697a">12 PORT</text>
   </g>
 
   <!-- panel -->
@@ -26,140 +27,140 @@
   <g transform="translate(4.5 0)">
     <!-- 01 MikroTik -->
     <g transform="translate(66 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">01</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">01</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#5aa9e6">
         <animate attributeName="opacity" values="1;0.3;1" dur="3.2s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">MikroTik</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">MikroTik</text>
     </g>
     <!-- 02 Cisco -->
     <g transform="translate(139 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">02</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">02</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#5aa9e6">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Cisco</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Cisco</text>
     </g>
     <!-- 03 TCP/IP -->
     <g transform="translate(212 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">03</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">03</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#5aa9e6">
         <animate attributeName="opacity" values="1;0.3;1" dur="4s" begin="0.8s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">TCP/IP</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">TCP/IP</text>
     </g>
     <!-- 04 Linux -->
     <g transform="translate(285 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">04</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">04</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#e8735f">
         <animate attributeName="opacity" values="1;0.3;1" dur="3.6s" begin="0.2s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Linux</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Linux</text>
     </g>
     <!-- 05 Wireshark -->
     <g transform="translate(358 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">05</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">05</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#e8735f">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.9s" begin="1.1s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Wireshark</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Wireshark</text>
     </g>
     <!-- 06 Nmap -->
     <g transform="translate(431 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">06</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">06</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#e8735f">
         <animate attributeName="opacity" values="1;0.3;1" dur="3.4s" begin="0.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Nmap</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Nmap</text>
     </g>
     <!-- 07 OSINT -->
     <g transform="translate(504 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">07</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">07</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#e8735f">
         <animate attributeName="opacity" values="1;0.3;1" dur="5s" begin="1.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">OSINT</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">OSINT</text>
     </g>
     <!-- 08 Python -->
     <g transform="translate(577 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">08</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">08</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#58c4a3">
         <animate attributeName="opacity" values="1;0.3;1" dur="3.8s" begin="0.9s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Python</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Python</text>
     </g>
     <!-- 09 Prompting -->
     <g transform="translate(650 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">09</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">09</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#58c4a3">
         <animate attributeName="opacity" values="1;0.3;1" dur="4.4s" begin="1.4s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Prompting</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Prompting</text>
     </g>
     <!-- 10 TypeScript -->
     <g transform="translate(723 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">10</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">10</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#b79ce8">
         <animate attributeName="opacity" values="1;0.3;1" dur="3s" begin="0.3s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">TypeScript</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">TypeScript</text>
     </g>
     <!-- 11 React -->
     <g transform="translate(796 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">11</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">11</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#b79ce8">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.7s" begin="1s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">React</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">React</text>
     </g>
     <!-- 12 Git -->
     <g transform="translate(869 124)">
-      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#93a6b8">12</text>
+      <text x="28" y="-6" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#93a6b8">12</text>
       <rect width="56" height="44" rx="2" fill="#14202a" stroke="#3a4a57"/>
       <path d="M14 13h28v10l-5 8H19l-5-8z" fill="#0d171f" stroke="#46596a"/>
       <path d="M19 16v6M24 16v6M29 16v6M34 16v6M39 16v6" stroke="#3f5162"/>
       <circle cx="47" cy="8" r="2.6" fill="#b79ce8">
         <animate attributeName="opacity" values="1;0.3;1" dur="4.2s" begin="0.7s" repeatCount="indefinite"/>
       </circle>
-      <text x="28" y="70" text-anchor="middle" font-size="11.5" fill="#12232f">Git</text>
+      <text x="28" y="70" text-anchor="middle" font-size="11" fill="#12232f">Git</text>
     </g>
   </g>
 
   <!-- legend -->
-  <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="11.5" fill="#55697a">
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" fill="#55697a">
     <circle cx="50" cy="231" r="4" fill="#5aa9e6"/>
     <text x="62" y="235">jaringan</text>
     <circle cx="150" cy="231" r="4" fill="#e8735f"/>

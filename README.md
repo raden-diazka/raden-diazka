@@ -1,10 +1,18 @@
 <p align="center">
-  <img src="./assets/sheet-topologi.svg" alt="Lembar gambar topologi belajar: laptop, switch, router, firewall, dan cloud" width="100%" />
+  <picture>
+    <source media="(max-width: 620px)" srcset="./assets/terminal-sempit.svg" />
+    <img src="./assets/terminal.svg" alt="Terminal: Raden Diazka Adhitya Budiman, pelajar SMK TJKT di Indonesia, terbuka untuk kolaborasi" width="100%" />
+  </picture>
 </p>
 
-Saya Raden Diazka Adhitya Budiman, pelajar SMK jurusan TJKT di Indonesia. Saya belajar jaringan komputer, keamanan, dan AI dengan membangun hal kecil lalu membukanya di sini.
+<p align="center">
+  <picture>
+    <source media="(max-width: 620px)" srcset="./assets/topologi-sempit.svg" />
+    <img src="./assets/sheet-topologi.svg" alt="Lembar 01: topologi belajar dari laptop melalui switch, router, dan firewall ke cloud, dengan berkas uji pkl.ts dan catatan uji berjalan" width="100%" />
+  </picture>
+</p>
 
-Portofolio lengkap ada di [raden-diazka.github.io](https://raden-diazka.github.io/), dan demo dashboard PKL bisa dicoba di [dashboard-pkl-chi.vercel.app](https://dashboard-pkl-chi.vercel.app).
+Saya Raden Diazka Adhitya Budiman, pelajar SMK TJKT di Indonesia. Saya belajar jaringan komputer, keamanan, dan AI dengan membangun hal kecil lalu membukanya di sini.
 
 ## Yang sedang saya kerjakan
 
@@ -15,16 +23,25 @@ Portofolio lengkap ada di [raden-diazka.github.io](https://raden-diazka.github.i
 ## Port map
 
 <p align="center">
-  <img src="./assets/port-map.svg" alt="Patch panel berisi 12 peralatan: MikroTik, Cisco, TCP/IP, Linux, Wireshark, Nmap, OSINT, Python, Prompting, TypeScript, React, dan Git" width="100%" />
+  <picture>
+    <source media="(max-width: 620px)" srcset="./assets/port-map-sempit.svg" />
+    <img src="./assets/port-map.svg" alt="Lembar 02: patch panel 12 port berisi MikroTik, Cisco, TCP/IP, Linux, Wireshark, Nmap, OSINT, Python, Prompting, TypeScript, React, dan Git" width="100%" />
+  </picture>
 </p>
 
 ## Proyek
 
-| Proyek | Isi | Stack |
-| --- | --- | --- |
-| [dashboard-pkl](https://github.com/raden-diazka/dashboard-pkl) | Dashboard manajemen PKL, dengan [demo langsung](https://dashboard-pkl-chi.vercel.app). | TypeScript, Vercel |
-| [raden-diazka.github.io](https://github.com/raden-diazka/raden-diazka.github.io) | Situs portofolio pribadi yang tayang di GitHub Pages. | HTML, CSS, JavaScript |
-| [raden-diazka-introduction](https://github.com/raden-diazka/raden-diazka-introduction) | Halaman perkenalan, minat, dan tujuan karier. | HTML, CSS |
+<p align="center">
+  <picture>
+    <source media="(max-width: 620px)" srcset="./assets/rak-proyek-sempit.svg" />
+    <img src="./assets/rak-proyek.svg" alt="Lembar 03: rak proyek dengan tiga unit proyek terpasang, satu unit latihan, dan satu unit kosong" width="100%" />
+  </picture>
+</p>
+
+- `PKL-01` [dashboard-pkl](https://github.com/raden-diazka/dashboard-pkl) — dashboard manajemen PKL dengan TypeScript dan Vercel. Demonya bisa dibuka di [dashboard-pkl-chi.vercel.app](https://dashboard-pkl-chi.vercel.app).
+- `WEB-01` [raden-diazka.github.io](https://github.com/raden-diazka/raden-diazka.github.io) — situs portofolio pribadi yang tayang di GitHub Pages, dibangun dengan HTML, CSS, dan JavaScript.
+- `WEB-02` [raden-diazka-introduction](https://github.com/raden-diazka/raden-diazka-introduction) — halaman perkenalan, minat, dan tujuan karier, dibangun dengan HTML dan CSS.
+- `LAB-01` — empat repo fork yang saya pakai untuk latihan, daftarnya ada di bawah.
 
 <details>
 <summary>Repo yang saya pelajari (fork)</summary>

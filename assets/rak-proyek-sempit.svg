@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" role="img" aria-label="Lembar 03 versi sempit: rak proyek dengan tiga unit terpasang, satu unit latihan, dan satu unit kosong">
+  <rect width="420" height="420" fill="#e9eef3"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="24" y="44" font-size="22" font-weight="600" fill="#12232f">Rak proyek</text>
+    <text x="24" y="66" font-size="11" fill="#55697a">Tiga proyek terpasang, satu kosong.</text>
+    <text x="396" y="44" text-anchor="end" font-size="9" letter-spacing="1.4" fill="#55697a">03 DARI 03</text>
+  </g>
+  <rect x="24" y="86" width="372" height="274" fill="#22303b" stroke="#12232f" stroke-width="1.6"/>
+  <rect x="24" y="86" width="16" height="274" fill="#2b3a46"/>
+  <rect x="380" y="86" width="16" height="274" fill="#2b3a46"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <g>
+      <text x="38" text-anchor="end" y="126" font-size="9" fill="#93a6b8">5U</text>
+      <rect x="44" y="96" width="332" height="46" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <circle cx="60" cy="119" r="3" fill="#c6361f"></circle>
+      <text x="76" y="125" font-size="14" letter-spacing="0.6" fill="#d5e0ea">WEB-01</text>
+      <text x="366" y="125" text-anchor="end" font-size="10" fill="#93a6b8">situs</text>
+    </g><g>
+      <text x="38" text-anchor="end" y="178" font-size="9" fill="#93a6b8">4U</text>
+      <rect x="44" y="148" width="332" height="46" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <circle cx="60" cy="171" r="3" fill="#c6361f">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="76" y="177" font-size="14" letter-spacing="0.6" fill="#d5e0ea">PKL-01</text>
+      <text x="366" y="177" text-anchor="end" font-size="10" fill="#93a6b8">dashboard</text>
+    </g><g>
+      <text x="38" text-anchor="end" y="230" font-size="9" fill="#93a6b8">3U</text>
+      <rect x="44" y="200" width="332" height="46" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <circle cx="60" cy="223" r="3" fill="#c6361f"></circle>
+      <text x="76" y="229" font-size="14" letter-spacing="0.6" fill="#d5e0ea">WEB-02</text>
+      <text x="366" y="229" text-anchor="end" font-size="10" fill="#93a6b8">halaman</text>
+    </g><g>
+      <text x="38" text-anchor="end" y="282" font-size="9" fill="#93a6b8">2U</text>
+      <rect x="44" y="252" width="332" height="46" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <circle cx="60" cy="275" r="3" fill="#8a5d4e"></circle>
+      <text x="76" y="281" font-size="14" letter-spacing="0.6" fill="#d5e0ea">LAB-01</text>
+      <text x="366" y="281" text-anchor="end" font-size="10" fill="#93a6b8">latihan</text>
+    </g><g>
+      <text x="38" text-anchor="end" y="334" font-size="9" fill="#93a6b8">1U</text>
+      <rect x="44" y="304" width="332" height="46" rx="2" fill="#17222c" stroke="#46596a" stroke-dasharray="6 4"/>
+      <circle cx="60" cy="327" r="3" fill="#2f3f4b"/>
+      <text x="76" y="333" font-size="14" letter-spacing="0.6" fill="#7f93a2">KOSONG</text>
+      <text x="366" y="333" text-anchor="end" font-size="10" fill="#7f93a2">menunggu</text>
+    </g>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <circle cx="28" cy="392" r="4" fill="#c6361f"/>
+    <text x="44" y="396" font-size="11.5" fill="#55697a">LED berkedip: ada demo yang bisa dibuka</text>
+  </g>
+</svg>

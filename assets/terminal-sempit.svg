@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" width="420" height="240" role="img" aria-label="Terminal: Raden Diazka Adhitya Budiman, pelajar SMK TJKT di Indonesia, terbuka untuk kolaborasi">
+  <style>
+    @keyframes ink { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .ch { animation: ink 0.02s linear both; }
+    .caret { animation: ink 0.02s linear 0.72s both, blink 1.1s step-end 0.76s infinite; }
+    .o1 { animation: ink 0.02s linear 0.95s both; }
+    .o2 { animation: ink 0.02s linear 1.2s both; }
+    .o3 { animation: ink 0.02s linear 1.45s both; }
+    @media (prefers-reduced-motion: reduce) {
+      .ch, .caret, .o1, .o2, .o3 { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect width="420" height="240" fill="#12232f"/>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="396" y="24" text-anchor="end" font-size="9.5" letter-spacing="1.6" fill="#7f93a2">TTY 01</text>
+    <text x="24" y="40" font-size="14" fill="#e9eef3">raden@tjkt<tspan fill="#7f93a2">:~$</tspan> <tspan class="ch" style="animation-delay:0.10s">w</tspan><tspan class="ch" style="animation-delay:0.20s">h</tspan><tspan class="ch" style="animation-delay:0.30s">o</tspan><tspan class="ch" style="animation-delay:0.40s">a</tspan><tspan class="ch" style="animation-delay:0.50s">m</tspan><tspan class="ch" style="animation-delay:0.60s">i</tspan></text>
+    <rect class="caret" x="193" y="26" width="8" height="18" fill="#e8735f"/>
+
+    <text class="o1" x="24" y="92" font-size="18" fill="#e9eef3">Raden Diazka Adhitya Budiman</text>
+    <text class="o2" x="24" y="122" font-size="14" fill="#93a6b8">pelajar SMK TJKT, Indonesia</text>
+    <text class="o3" x="24" y="160" font-size="14" fill="#e8735f">terbuka untuk kolaborasi,</text>
+    <text class="o3" x="24" y="182" font-size="14" fill="#e8735f">lomba, dan diskusi.</text>
+  </g>
+</svg>

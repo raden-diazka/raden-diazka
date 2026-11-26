@@ -1,38 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" role="img" aria-label="Lembar 01: topologi belajar dari laptop melalui switch, router, dan firewall ke cloud">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 668" width="1000" height="668" role="img" aria-label="Lembar 01: topologi belajar dari laptop melalui switch, router, dan firewall ke cloud, dengan berkas uji pkl.ts dan catatan uji berjalan">
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M20 0H0V20" fill="none" stroke="#c3d2df" stroke-width="0.7"/>
     </pattern>
   </defs>
 
-  <rect width="1000" height="620" fill="#e9eef3"/>
+  <rect width="1000" height="668" fill="#e9eef3"/>
 
   <!-- sheet borders -->
-  <rect x="20" y="20" width="960" height="580" fill="none" stroke="#12232f" stroke-width="1.6"/>
-  <rect x="28" y="28" width="944" height="564" fill="none" stroke="#12232f" stroke-width="0.7" opacity="0.45"/>
+  <rect x="20" y="20" width="960" height="628" fill="none" stroke="#12232f" stroke-width="1.6"/>
+  <rect x="28" y="28" width="944" height="612" fill="none" stroke="#12232f" stroke-width="0.7" opacity="0.45"/>
 
   <!-- header -->
-  <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif">
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
     <text x="48" y="104" font-size="34" font-weight="600" fill="#12232f">Topologi belajar</text>
     <text x="48" y="132" font-size="15" fill="#55697a">Dari laptop ke cloud: jaringan, keamanan, dan AI.</text>
   </g>
 
   <!-- drawing area -->
-  <rect x="48" y="160" width="904" height="310" fill="#e4ebf2" stroke="#c3d2df"/>
-  <rect x="48" y="160" width="904" height="310" fill="url(#grid)"/>
+  <rect x="48" y="160" width="904" height="352" fill="#e4ebf2" stroke="#c3d2df"/>
+  <rect x="48" y="160" width="904" height="352" fill="url(#grid)"/>
 
   <!-- registration marks -->
   <g stroke="#55697a" stroke-width="1" opacity="0.55">
     <path d="M60 166v-12M60 166h12"/>
     <path d="M940 166v-12M940 166h-12"/>
-    <path d="M60 464v12M60 464h12"/>
-    <path d="M940 464v12M940 464h-12"/>
+    <path d="M60 512v12M60 512h12"/>
+    <path d="M940 512v12M940 512h-12"/>
   </g>
 
   <!-- route -->
   <path id="route" d="M129 352H309V228H489V352H669V228H849V352" fill="none" stroke="#7b8fa3" stroke-width="1.6"/>
 
-  <!-- packet (mulai di client, disembunyikan oleh kotak perangkat sampai animasi berjalan) -->
+  <!-- paket uji, berulang (mulai di client, tertutup kotak perangkat) -->
   <g transform="translate(129 352)">
     <circle r="12" fill="#c6361f" opacity="0.16">
       <animateMotion dur="7s" repeatCount="indefinite" path="M0 0h180v-124h180v124h180v-124h180v124"/>
@@ -42,8 +42,17 @@
     </circle>
   </g>
 
+  <!-- berkas uji pkl.ts: dikirim sekali, berhenti di pintu cloud -->
+  <g transform="translate(129 352)">
+    <g>
+      <animateMotion dur="5s" begin="0.5s" fill="freeze" repeatCount="1" path="M0 0h180v-124h180v124h180v-124h180v84"/>
+      <rect x="-9" y="-6" width="18" height="12" rx="1.5" fill="#e9eef3" stroke="#c6361f" stroke-width="1.6"/>
+      <path d="M6 -6v4h3" fill="none" stroke="#c6361f" stroke-width="1.2"/>
+    </g>
+  </g>
+
   <!-- devices -->
-  <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif">
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
     <!-- client -->
     <g transform="translate(129 352)">
       <rect x="-59" y="-32" width="118" height="64" rx="4" fill="#f7fafc" stroke="#12232f" stroke-width="1.6"/>
@@ -51,7 +60,7 @@
         <rect x="-13" y="-22" width="26" height="17" rx="1.5"/>
         <path d="M-18 -1h36"/>
       </g>
-      <text x="0" y="22" text-anchor="middle" font-size="11" letter-spacing="1.2" fill="#55697a">CLIENT</text>
+      <text x="0" y="22" text-anchor="middle" font-size="11.5" letter-spacing="1.2" fill="#55697a">CLIENT</text>
     </g>
 
     <!-- switch -->
@@ -61,7 +70,7 @@
         <rect x="-17" y="-22" width="34" height="17" rx="1.5"/>
         <path d="M-11 -16h5M-11 -10h5M1 -16h5M1 -10h5M13 -16h5M13 -10h5" stroke-width="2.4"/>
       </g>
-      <text x="0" y="22" text-anchor="middle" font-size="11" letter-spacing="1.2" fill="#55697a">SWITCH</text>
+      <text x="0" y="22" text-anchor="middle" font-size="11.5" letter-spacing="1.2" fill="#55697a">SWITCH</text>
     </g>
 
     <!-- router -->
@@ -72,7 +81,7 @@
         <path d="M-11 -13h22M0 -24v22"/>
         <path d="M-4 -17l4-4 4 4M-4 -9l4 4 4-4"/>
       </g>
-      <text x="0" y="22" text-anchor="middle" font-size="11" letter-spacing="1.2" fill="#55697a">ROUTER</text>
+      <text x="0" y="22" text-anchor="middle" font-size="11.5" letter-spacing="1.2" fill="#55697a">ROUTER</text>
     </g>
 
     <!-- firewall -->
@@ -83,7 +92,7 @@
         <path d="M-16 -15h32M-16 -8h32"/>
         <path d="M-8 -22v7M8 -22v7M-16 -15v7"/>
       </g>
-      <text x="0" y="22" text-anchor="middle" font-size="11" letter-spacing="1.2" fill="#55697a">FIREWALL</text>
+      <text x="0" y="22" text-anchor="middle" font-size="11.5" letter-spacing="1.2" fill="#55697a">FIREWALL</text>
     </g>
 
     <!-- cloud -->
@@ -95,48 +104,73 @@
         <circle cx="12" cy="-4" r="3.2"/>
         <circle cx="0" cy="-15" r="3.2"/>
       </g>
-      <text x="0" y="22" text-anchor="middle" font-size="11" letter-spacing="1.2" fill="#55697a">CLOUD / AI</text>
+      <text x="0" y="22" text-anchor="middle" font-size="11.5" letter-spacing="1.2" fill="#55697a">CLOUD / AI</text>
     </g>
   </g>
 
   <!-- annotations -->
-  <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="12.5" fill="#55697a">
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#55697a">
     <text x="309" y="184" text-anchor="middle">routing &amp; switching</text>
     <path d="M309 190v6" stroke="#7b8fa3"/>
     <text x="669" y="184" text-anchor="middle">hardening &amp; monitoring</text>
     <path d="M669 190v6" stroke="#7b8fa3"/>
-    <text x="489" y="416" text-anchor="middle">troubleshooting jaringan</text>
-    <path d="M489 392v14" stroke="#7b8fa3"/>
-    <text x="849" y="416" text-anchor="middle">AI &amp; otomasi</text>
-    <path d="M849 392v14" stroke="#7b8fa3"/>
+    <text x="489" y="404" text-anchor="middle">troubleshooting jaringan</text>
+    <path d="M489 392v6" stroke="#7b8fa3"/>
+    <text x="849" y="404" text-anchor="middle">AI &amp; otomasi</text>
+    <path d="M849 392v6" stroke="#7b8fa3"/>
   </g>
 
   <!-- packet legend -->
-  <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="11.5" fill="#55697a">
-    <circle cx="76" cy="440" r="4" fill="#c6361f"/>
-    <text x="88" y="444">paket uji, berjalan dari laptop ke cloud</text>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#55697a">
+    <circle cx="76" cy="432" r="4" fill="#c6361f"/>
+    <text x="88" y="436">paket uji, berjalan terus dari laptop ke cloud</text>
+
+    <rect x="71" y="448" width="10" height="10" rx="1" fill="#e9eef3" stroke="#c6361f" stroke-width="1.4"/>
+    <text x="88" y="458">berkas uji pkl.ts, dikirim sekali lalu berhenti di cloud</text>
+  </g>
+
+  <!-- catatan uji -->
+  <g>
+    <rect x="48" y="468" width="904" height="44" fill="#dde6ee"/>
+    <path d="M48 468h904" stroke="#b9cbd9" stroke-width="1"/>
+
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+      <text x="62" y="494" font-size="10.5" letter-spacing="1.4" fill="#4d6070">CATATAN UJI</text>
+    </g>
+
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#2c3f4c">
+      <text x="170" y="495">link up 1 Gbps, full duplex
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.28;0.33;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="170" y="495" opacity="0">DHCP 10.10.10.24, gateway 10.10.10.1
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.36;0.63;0.66" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="170" y="495" opacity="0">berkas pkl.ts terkirim, 0% loss
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.69;0.93;0.96;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
   </g>
 
   <!-- title block -->
   <g>
-    <rect x="48" y="492" width="904" height="96" fill="none" stroke="#12232f" stroke-width="1.3"/>
-    <path d="M560 492v96M760 492v96M48 540h904" stroke="#12232f" stroke-width="0.9" opacity="0.7"/>
+    <rect x="48" y="528" width="904" height="96" fill="none" stroke="#12232f" stroke-width="1.3"/>
+    <path d="M560 528v96M760 528v96M48 576h904" stroke="#12232f" stroke-width="0.9" opacity="0.7"/>
 
-    <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="13" fill="#12232f">
-      <text x="60" y="532">Profile README</text>
-      <text x="572" y="532">01 dari 02</text>
-      <text x="772" y="532">1:1</text>
-      <text x="60" y="580">Raden Diazka Adhitya Budiman</text>
-      <text x="572" y="580">2026</text>
-      <text x="772" y="580">02</text>
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" fill="#12232f">
+      <text x="60" y="568">Profile README</text>
+      <text x="572" y="568">01 dari 03</text>
+      <text x="772" y="568">1:1</text>
+      <text x="60" y="616">Raden Diazka Adhitya Budiman</text>
+      <text x="572" y="616">2026</text>
+      <text x="772" y="616">A</text>
     </g>
-    <g font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="9.5" letter-spacing="1.4" fill="#55697a">
-      <text x="60" y="514">PROYEK</text>
-      <text x="572" y="514">LEMBAR</text>
-      <text x="772" y="514">SKALA</text>
-      <text x="60" y="562">DISUSUN OLEH</text>
-      <text x="572" y="562">TAHUN</text>
-      <text x="772" y="562">REVISI</text>
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.4" fill="#55697a">
+      <text x="60" y="550">PROYEK</text>
+      <text x="572" y="550">LEMBAR</text>
+      <text x="772" y="550">SKALA</text>
+      <text x="60" y="598">DISUSUN OLEH</text>
+      <text x="572" y="598">TAHUN</text>
+      <text x="772" y="598">REVISI</text>
     </g>
   </g>
 </svg>

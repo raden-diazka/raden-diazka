@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 720" width="420" height="720" role="img" aria-label="Lembar 01 versi sempit: laptop, switch, router, firewall, lalu cloud, tersusun dari atas ke bawah">
+  <rect width="420" height="720" fill="#e9eef3"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="24" y="48" font-size="26" font-weight="600" fill="#12232f">Topologi belajar</text>
+    <text x="24" y="72" font-size="12" fill="#55697a">Dari laptop ke cloud:</text>
+    <text x="24" y="90" font-size="12" fill="#55697a">jaringan, keamanan, dan AI.</text>
+  </g>
+
+  <path d="M74 158v328" stroke="#7b8fa3" stroke-width="1.8"/>
+  <g transform="translate(74 158)">
+    <circle r="5" fill="#c6361f">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M0 0v328"/>
+    </circle>
+  </g>
+
+  <g>
+      <rect x="24" y="102" width="100" height="56" rx="3" fill="#f7fafc" stroke="#12232f" stroke-width="1.8"/>
+      <rect x="59" y="114" width="30" height="20" rx="2" fill="none" stroke="#12232f" stroke-width="1.8"/><path d="M65 138h18" stroke="#12232f" stroke-width="1.8"/>
+<rect x="24" y="198" width="100" height="56" rx="3" fill="#f7fafc" stroke="#12232f" stroke-width="1.8"/>
+      <rect x="58" y="217" width="32" height="18" rx="2" fill="none" stroke="#12232f" stroke-width="1.8"/><path d="M64 222h4M64 230h4M72 222h4M72 230h4M80 222h4M80 230h4" stroke="#12232f" stroke-width="2.4"/>
+<rect x="24" y="294" width="100" height="56" rx="3" fill="#f7fafc" stroke="#12232f" stroke-width="1.8"/>
+      <circle cx="74" cy="322" r="13" fill="none" stroke="#12232f" stroke-width="1.8"/><path d="M61 322h26M74 309v26" stroke="#12232f" stroke-width="1.8"/><path d="M70 318l4-4 4 4M70 326l4 4 4-4" fill="none" stroke="#12232f" stroke-width="1.8"/>
+<rect x="24" y="390" width="100" height="56" rx="3" fill="#f7fafc" stroke="#12232f" stroke-width="1.8"/>
+      <rect x="58" y="407" width="32" height="22" rx="2" fill="none" stroke="#12232f" stroke-width="1.8"/><path d="M58 417h32M58 425h32M68 407v10M80 407v10M74 417v8" stroke="#12232f" stroke-width="1.6"/>
+<rect x="24" y="486" width="100" height="56" rx="3" fill="#f7fafc" stroke="#12232f" stroke-width="1.8"/>
+      <path d="M58 520l14-13 14 13M58 520h32" fill="none" stroke="#12232f" stroke-width="1.8"/><circle cx="58" cy="520" r="3.4" fill="none" stroke="#12232f" stroke-width="1.8"/><circle cx="90" cy="520" r="3.4" fill="none" stroke="#12232f" stroke-width="1.8"/><circle cx="74" cy="507" r="3.4" fill="none" stroke="#12232f" stroke-width="1.8"/>
+
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+      <text x="140" y="126" font-size="12" fill="#55697a">CLIENT</text>
+      <text x="140" y="144" font-size="12" fill="#12232f">laptop kerja</text>
+      <text x="140" y="222" font-size="12" fill="#55697a">SWITCH</text>
+      <text x="140" y="240" font-size="12" fill="#12232f">routing &amp; switching</text>
+      <text x="140" y="318" font-size="12" fill="#55697a">ROUTER</text>
+      <text x="140" y="336" font-size="12" fill="#12232f">troubleshooting jaringan</text>
+      <text x="140" y="414" font-size="12" fill="#55697a">FIREWALL</text>
+      <text x="140" y="432" font-size="12" fill="#12232f">hardening &amp; monitoring</text>
+      <text x="140" y="510" font-size="12" fill="#55697a">CLOUD</text>
+      <text x="140" y="528" font-size="12" fill="#12232f">AI &amp; otomasi</text>
+      
+  </g>
+
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" fill="#55697a">
+    <circle cx="32" cy="596" r="4" fill="#c6361f"/>
+    <text x="46" y="600">paket uji berjalan ke cloud</text>
+  </g>
+  <g>
+    <rect x="24" y="620" width="372" height="40" fill="#dde6ee"/>
+    <path d="M24 620h372" stroke="#b9cbd9"/>
+    <text x="36" y="645" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="9.5" letter-spacing="1.4" fill="#4d6070">CATATAN UJI</text>
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11.5" fill="#2c3f4c">
+      <text x="150" y="645">link up 1 Gbps
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.28;0.33;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="150" y="645" opacity="0">DHCP 10.10.10.24
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.36;0.63;0.66" dur="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="150" y="645" opacity="0">pkl.ts terkirim
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.69;0.93;0.96;1" dur="12s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" letter-spacing="1.4" fill="#55697a">
+    <text x="24" y="692">LEMBAR 01 DARI 03</text>
+  </g>
+</svg>

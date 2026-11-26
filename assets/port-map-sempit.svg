@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" width="420" height="560" role="img" aria-label="Lembar 02 versi sempit: dua belas port peralatan dalam tiga kolom">
+  <rect width="420" height="560" fill="#e9eef3"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <text x="24" y="44" font-size="22" font-weight="600" fill="#12232f">Port map</text>
+    <text x="24" y="64" font-size="11" fill="#55697a">Peralatan yang paling sering saya pakai.</text>
+    <text x="396" y="44" text-anchor="end" font-size="9" letter-spacing="1.4" fill="#55697a">02 DARI 03</text>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+    <g transform="translate(30 100)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">01</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#5aa9e6">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">MikroTik</text>
+    </g><g transform="translate(158 100)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">02</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#5aa9e6">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Cisco</text>
+    </g><g transform="translate(286 100)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">03</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#5aa9e6">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">TCP/IP</text>
+    </g><g transform="translate(30 200)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">04</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#e8735f">
+        <animate attributeName="opacity" values="1;0.3;1" dur="4.0s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Linux</text>
+    </g><g transform="translate(158 200)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">05</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#e8735f">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Wireshark</text>
+    </g><g transform="translate(286 200)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">06</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#e8735f">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Nmap</text>
+    </g><g transform="translate(30 300)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">07</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#e8735f">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">OSINT</text>
+    </g><g transform="translate(158 300)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">08</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#58c4a3">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Python</text>
+    </g><g transform="translate(286 300)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">09</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#58c4a3">
+        <animate attributeName="opacity" values="1;0.3;1" dur="4.0s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Prompting</text>
+    </g><g transform="translate(30 400)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">10</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#b79ce8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">TypeScript</text>
+    </g><g transform="translate(158 400)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">11</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#b79ce8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">React</text>
+    </g><g transform="translate(286 400)">
+      <text x="0" y="-8" font-size="9" letter-spacing="1.2" fill="#55697a">12</text>
+      <rect width="64" height="42" rx="2" fill="#14202a" stroke="#3a4a57"/>
+      <path d="M16 12h32v10l-6 9H22l-6-9z" fill="#0d171f" stroke="#46596a"/>
+      <path d="M22 16v6M28 16v6M34 16v6M40 16v6" stroke="#3f5162"/>
+      <circle cx="54" cy="8" r="2.6" fill="#b79ce8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="66" text-anchor="middle" font-size="11" fill="#12232f">Git</text>
+    </g>
+  </g>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" fill="#55697a">
+    <circle cx="32" cy="524" r="4" fill="#5aa9e6"/><text x="44" y="528">jaringan</text>
+    <circle cx="122" cy="524" r="4" fill="#e8735f"/><text x="134" y="528">keamanan</text>
+    <circle cx="228" cy="524" r="4" fill="#58c4a3"/><text x="240" y="528">AI</text>
+    <circle cx="280" cy="524" r="4" fill="#b79ce8"/><text x="292" y="528">web</text>
+  </g>
+</svg>
